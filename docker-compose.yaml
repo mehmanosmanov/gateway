@@ -1,0 +1,6 @@
+services:
+  gateway:
+    image: gateway
+    container_name: gateway-cont
+    ports:
+      - "8095:8888"
